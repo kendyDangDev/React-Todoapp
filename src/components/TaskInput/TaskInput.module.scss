@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  gap: 4px;
+
+  .input {
+    width: 100%;
+    border: 1px solid #cccccc5a;
+    border-radius: 4px;
+    padding: 4px 0px 4px 10px;
+    background-color: #cccccc5a;
+  }
+  .button {
+    flex: 1 1 33px;
+    background-color: #cccccc5a;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 2px;
+  }
+}

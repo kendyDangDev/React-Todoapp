@@ -1,0 +1,38 @@
+.title {
+  margin-top: 12px;
+  font-size: 2rem;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 4px 0;
+
+  .check {
+    display: block;
+  }
+  .taskName {
+    margin-left: 6px;
+  }
+  .taskdone {
+    text-decoration: line-through;
+    color: rgb(104, 104, 104);
+  }
+}
+
+.taskActions {
+  display: flex;
+  gap: 4px;
+
+  .taskBtn {
+    background-color: #cccccc5a;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 2px;
+  }
+}
+
+.taskdone {
+  text-decoration: line-through;
+}
